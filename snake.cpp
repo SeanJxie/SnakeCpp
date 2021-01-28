@@ -2,9 +2,6 @@
 #include <iostream>
 #include <vector>
 
-#define EXIT_FAILURE 1
-#define EXIT_SUCCESS 0
-
 #define WIN_WT 1000
 #define WIN_HT 1000
 
