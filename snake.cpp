@@ -38,7 +38,7 @@ int main(int argc, char* argv[])
     }
 
 
-    SDL_Window* pWin = SDL_CreateWindow("C++ Snake Game", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WIN_WT, WIN_HT, SDL_WINDOW_RESIZABLE);
+    SDL_Window* pWin = SDL_CreateWindow("C++ Snake Game", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WIN_WT, WIN_HT, SDL_WINDOW_SHOWN);
 
     if (pWin == NULL)
     {
